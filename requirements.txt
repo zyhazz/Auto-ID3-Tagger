@@ -1,3 +1,4 @@
 eyeD3
-python-magic-bin
 shazamio
+# Required for pydub (used by shazamio) on Python 3.13+ (audioop was removed from stdlib)
+audioop-lts; python_version >= '3.13'
